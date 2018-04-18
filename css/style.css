@@ -1,0 +1,228 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+html, body {
+  overflow: hidden;
+}
+
+.background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+  will-change: transform;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  height: 130vh;
+  position: fixed;
+  width: 100%;
+  -webkit-transform: translateY(30vh);
+          transform: translateY(30vh);
+  -webkit-transition: all 1.2s cubic-bezier(0.22, 0.44, 0, 1);
+  transition: all 1.2s cubic-bezier(0.22, 0.44, 0, 1);
+}
+.background:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.background:first-child {
+  -webkit-transform: translateY(-15vh);
+          transform: translateY(-15vh);
+}
+.background:first-child .content-wrapper {
+  -webkit-transform: translateY(15vh);
+          transform: translateY(15vh);
+}
+.background:nth-child(2) {
+  background-image: url(../Ratchaburi/Ratchaburi.jpeg);
+}
+.background:nth-child(3) {
+  background-image: url(../Ratchaburi/dum.jpg);
+}
+.background:nth-child(4) {
+  background-image: url(../Ratchaburi/วัดขนอนหนังใหญ่.jpg);
+}
+
+.background:nth-child(5) {
+  background-image: url(../Ratchaburi/เขากระโจม_180411_0001.jpg);
+}
+
+.background:nth-child(6) {
+    background-image: url('../Ratchaburi/สวนผึ้ง.jpg');
+}
+
+.background:nth-child(7) {
+    background-image: url(../Ratchaburi/ตลาดเก่าโพธาราม_180411_0003.jpg);
+
+}
+.background:nth-child(8) {
+  background-image: url(../Ratchaburi/ธารน้ำร้อนบ่อคลึง2.jpg);
+
+}
+.background:nth-child(9) {
+  background-image: url(../Ratchaburi/ถ้ำค้างคาว.jpg);
+
+}
+.background:nth-child(10) {
+  background-image: url(../Ratchaburi/Thebloom.jpg);
+
+}
+.background:nth-child(11) {
+  background-image: url(../Ratchaburi/alpaca.jpg);
+
+}
+.background:nth-child(12) {
+  background-image: url(../Ratchaburi/พิพิธภสระโกสินารายณ์.jpg);
+
+}
+.background:nth-child(13) {
+  background-image: url(../Ratchaburi/Thescenery_180418_0003.jpg);
+
+}
+.background:nth-child(14) {
+  background-image: url(../Ratchaburi/หุ่นขี้ผึ้ง_180418_0005.jpg);
+
+}
+.background:nth-child(15) {
+  background-image: url(../Ratchaburi/สุนทรีแลนด์แดนตุ๊กตา_180418_0005.jpg);
+
+}
+.background:nth-child(16) {
+  background-image: url(../Ratchaburi/secretspace_180418_0002.jpg);
+
+}
+.background:nth-child(17) {
+  background-image: url(../Ratchaburi/บ้านหอมเทียน_180418_0003.jpg);
+
+}
+.background:nth-child(18) {
+  background-image: url(../Ratchaburi/อุทยานเขาหินงู_180418_0005.jpg);
+
+}
+/* Set stacking context of slides */
+.background:nth-child(1) {
+  z-index: 10;
+}
+
+.background:nth-child(2) {
+  z-index: 9;
+}
+
+.background:nth-child(3) {
+  z-index: 8;
+}
+
+.background:nth-child(4) {
+  z-index: 7;
+}
+
+.background:nth-child(5) {
+  z-index: 6;
+}
+
+.background:nth-child(6) {
+  z-index: 5;
+}
+.background:nth-child(7) {
+  z-index: 4;
+}
+.background:nth-child(8) {
+  z-index: 3;
+}
+.background:nth-child(9) {
+  z-index: 2;
+}
+.background:nth-child(10) {
+  z-index: 1;
+}
+.background:nth-child(11) {
+  z-index: 0;
+}
+.background:nth-child(12) {
+  z-index: -1;
+}
+.background:nth-child(13) {
+  z-index: -3;
+}
+.background:nth-child(14) {
+  z-index: -4;
+}
+.background:nth-child(15) {
+  z-index: -5;
+}
+.background:nth-child(16) {
+  z-index: -6;
+}
+.background:nth-child(17) {
+  z-index: -7;
+}
+.background:nth-child(18) {
+  z-index: -8;
+}
+.content-wrapper {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  color: #fff;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  -webkit-transform: translateY(40vh);
+          transform: translateY(40vh);
+  will-change: transform;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: all 1.7s cubic-bezier(0.22, 0.44, 0, 1);
+  transition: all 1.7s cubic-bezier(0.22, 0.44, 0, 1);
+}
+.content-title {
+  font-size: 12vh;
+  line-height: 1.4;
+}
+
+.background.up-scroll {
+  -webkit-transform: translate3d(0, -15vh, 0);
+          transform: translate3d(0, -15vh, 0);
+}
+.background.up-scroll .content-wrapper {
+  -webkit-transform: translateY(15vh);
+          transform: translateY(15vh);
+}
+.background.up-scroll + .background {
+  -webkit-transform: translate3d(0, 30vh, 0);
+          transform: translate3d(0, 30vh, 0);
+}
+.background.up-scroll + .background .content-wrapper {
+  -webkit-transform: translateY(30vh);
+          transform: translateY(30vh);
+}
+
+.background.down-scroll {
+  -webkit-transform: translate3d(0, -130vh, 0);
+          transform: translate3d(0, -130vh, 0);
+}
+.background.down-scroll .content-wrapper {
+  -webkit-transform: translateY(40vh);
+          transform: translateY(40vh);
+}
+.background.down-scroll + .background:not(.down-scroll) {
+  -webkit-transform: translate3d(0, -15vh, 0);
+          transform: translate3d(0, -15vh, 0);
+}
+.background.down-scroll + .background:not(.down-scroll) .content-wrapper {
+  -webkit-transform: translateY(15vh);
+          transform: translateY(15vh);
+}

@@ -2,55 +2,175 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
     <title>Ratchaburi</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:bold|Prompt:bold" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rancho&effect= shadow-multiple">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mycss.css">
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Neuton|Oswald'>
 </head>
 
 <body>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"> &times;</a>
+        <div class="overlay-content">
+            <a href="index.html">Home</a>
+            <a href="credit.html">Credit</a>
+        </div>
+    </div>
+    <!-- Navbar -->
     <div id="navbar">
-        <a href="#home" class="fontThai">หน้าหลัก</a>
-        <a href="#news" class="fontThai">สถานที่แนะนำ</a>
-        <a href="#contact" class="fontThai">ผู้จัดทำ</a>
+        <span style="color:white;cursor:pointer" onclick="openNav()">
+            <img width='45px' style='margin-left: 7px' src="Ratchaburi/logo1">
+        </span>
     </div>
-
-    <div class="containers">
-        <img class="bg" src="Bg.jpg">
-        <div class='centered fontEng font-effect-shadow-multiple'>Ratchaburi</div>
-        <div class='bottom fontThai font-effect-shadow-multiple'>คุณรู้จักอะไรบ้าง</div>
+    <!-- Picture -->
+    <div class="container">
+        <section class="background">
+            <div class="content-wrapper">
+                <video autoplay loop id="myVideo" controls>
+                    <source src="Ratchaburi.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+        <!-- Img1 -->
+        <section class="background">
+            <div class="content-wrapper">
+                <p class="content-title">จังหวัดราชบุรี</p>
+                <p class="content-subtitle" style="font-size: 18px; letter-spacing: 1.25px">“คนสวยโพธาราม คนงามบ้านโป่ง เมืองโอ่งมังกร วัดขนอนหนังใหญ่ ตื่นใจถ้ำงาม ตลาดน้ำดำเนิน เพลินค้างคาวร้อยล้าน
+                    ย่านยี่สกปลาดี” </p>
+            </div>
+        </section>
+        <!-- Img2 -->
+        <section class="background">
+            <div class="content-wrapper">
+                <p class="content-title">ตลาดน้ำดำเนินสะดวก</p>
+                <p class="content-subtitle" style="font-size: 18px; letter-spacing: 1.25px">ตลาดน้ำดำเนินสะดวก ตลาดน้ำที่เก่าแก่นับร้อยกว่าปีของไทยและมีชื่อเสียงไปไกลถึงต่างประเทศ ใช้เป็นฉากหนังหรือถ่ายแบบในหลายครั้ง</p>
+            </div>
+        </section>
+        <!-- Img3 -->
+        <section class="background">
+            <div class="content-wrapper">
+                <p class="content-title">วัดขนอนหนังใหญ่</a>
+                </p>
+                <p class="content-subtitle" style="font-size: 18px; letter-spacing: 1.25px">วัดขนอนเป็นวัดสำคัญแห่งหนึ่งของประเทศไทย จัดเป็นวัดที่อนุรักษ์ศิลปะวัฒนธรรมการแสดงหนังใหญ่
+                </p>
+            </div>
+        </section>
+        <!-- Img4 -->
+        <section class="background">
+            <div class="content-wrapper">
+                <p class="content-title">เขากระโจม</p>
+                <p class="content-subtitle" style="font-size: 18px; letter-spacing: 1.25px">คนไทยรุ่นที่ไปทำเหมืองแร่ดีบุกที่นั่นย้อนหลังไปเมื่อประมาณ 50 ปีก่อน เห็นรูปลักษณะของเขาว่าคล้าย กระโจมอินเดียนแดง
+                    ก็เลยเปลี่ยนชื่อให้เป็น เขากระโจม</p>
+            </div>
+        </section>
+        <!-- Img5 -->
+        <section class="background">
+            <div class="content-wrapper">
+                <p class="content-title">สวนผึ้ง</p>
+                <p class="content-subtitle" style="font-size: 18px; letter-spacing: 1.25px">สวนผึ้ง เที่ยวสวนผึ้ง ดินแดนแห่งหุบเขา สายหมอก และทุ่งหญ้า</p>
+            </div>
+        </section>
+        <!-- Img6 -->
+        <section class="background">
+            <div class="content-wrapper">
+                <p class="content-title">ตลาดเก่าโพธาราม</p>
+                <p class="content-subtitle" style="font-size: 18px; letter-spacing: 1.25px">ตลาดเก่าโพธาราม เป็นตลาดเก่าแก่แห่งนี้มีมาตั้งแต่สมัยรัชกาลที่ 5 ปัจจุบันยังคงเหลือเรือนแถวไม้และบ้านเก่า</p>
+            </div>
+        </section>
+        <!-- Img7 -->
+        <section class="background">
+            <div class="content-wrapper">
+                <p class="content-title">ธารน้ำร้อนบ่อคลึง</p>
+                <p class="content-subtitle" style="font-size: 18px; letter-spacing: 1.25px">บ่อน้ำร้อนบ่อคลึงมีให้บริการแช่บ่อน้ำร้อนมีสระให้เลือก2แบบ คือ สระดิน และสระน้ำกระเบื้อง เป็นสระรวม อุณหภูมิบ่อน้ำร้อนประมาณ
+                    38 – 45 องศา</p>
+            </div>
+        </section>
+        <!-- Img8 -->
+        <section class="background">
+            <div class="content-wrapper">
+                <p class="content-title">ถ้ำค้างคาววัดเขาช่องพราน</p>
+                <p class="content-subtitle" style="font-size: 18px; letter-spacing: 1.25px">ถ้ำค้างคาววัดเขาช่องพราน เป็นที่กล่าวขาน บรรดาค้างคาวหนูจำนวนร้อยล้านตัวบินออกจากถ้ำเป็นสายควันดำโบกสะบัดเปลี่ยนทิศทางการเคลื่อนไหวไปมา</p>
+            </div>
+        </section>
+        <!-- Img9 -->
+        <section class="background">
+            <div class="content-wrapper">
+                <p class="content-title">The bloom orchid</p>
+                <p class="content-subtitle" style="font-size: 18px; letter-spacing: 1.25px">สถานที่ท่องเที่ยวแห่งใหม่ของจังหวัดราชบุรี มีเนื้อที่ประมาณ 100 ไร่ ภายในร่มรื่นด้วยสวนป่าและอุทยานกล้วยไม้
+                    มีพันธุ์ไม้หายาก
+                </p>
+            </div>
+        </section>
+        <!-- Img10 -->
+        <section class="background">
+            <div class="content-wrapper">
+                <p class="content-title">Alpaca Restuarant</p>
+                <p class="content-subtitle" style="font-size: 18px; letter-spacing: 1.25px">ร้านอาหาร Alpaca Ratchaburi ร้านอาหารสุดเก๋ ตั้งอยู่ใจกลางหมู่บ้านโพธารามเมืองใหม่ อ.โพธาราม จ.ราชบุรี ติดกับสระว่ายน้ำและ
+                    ซี.เจ.สปอร์ทคลับ
+                </p>
+            </div>
+        </section>
+        <!-- Img11 -->
+        <section class="background">
+            <div class="content-wrapper">
+                <p class="content-title">พิพิธิภัณธ์สระโกสินารายณ์</p>
+                <p class="content-subtitle" style="font-size: 18px; letter-spacing: 1.25px">พิพิธภัณฑ์ชุมชนสระโกสินารายณ์ สร้างขึ้นเพื่อให้เป็นศูนย์การเรียนรู้ ห้องสมุดสำหรับผู้ต้องการศึกษา และแหล่งท่องเที่ยวสำหรับประชาชน</p>
+            </div>
+        </section>
+        <!-- Img12 -->
+        <section class="background">
+            <div class="content-wrapper">
+                <p class="content-title">The Scenery</p>
+                <p class="content-subtitle" style="font-size: 18px; letter-spacing: 1.25px">สถานที่ยอดฮิตโด่งดังในสวนผึ้งที่ต้องแวะถ่ายรูป ให้อาหารแกะและทำกิจกรรมต่างๆ ในหมู่บ้านชาวฟาร์มสไตล์ Vintage
+                    ที่รอคอยต้อนรับนักท่องเที่ยวทุกท่าน
+                </p>
+            </div>
+        </section>
+        <!-- Img13 -->
+        <section class="background">
+            <div class="content-wrapper">
+                <p class="content-title">อุทยานหุ่นขี้ผึ้งสยาม</p>
+                <p class="content-subtitle" style="margin-top:10px; font-size: 18px; letter-spacing: 1.25px">เป็นสถานที่ท่องเที่ยวที่รู้จักและมีชื่อเสียงเป็นอันดับต้นๆ ของจังหวัดราชบุรี ที่นี่มีเอกลักษณ์ที่แตกต่างออกไปหุ่นขึ้ผึ้งที่ไม่เหมือนกับที่อื่น
+                    บรรยากาศที่ร่มรื่น ในเนื้อที่ถึง 42 ไร่</p>
+            </div>
+        </section>
+        <!-- Img14 -->
+        <section class="background">
+            <div class="content-wrapper">
+                <p class="content-title">สุนทรีแลนด์ แดนตุ๊กตา</p>
+                <p class="content-subtitle" style="font-size: 18px; letter-spacing: 1.25px">ดินแดนแห่งความฝันของคนรักตุ๊กตา เชิญพบและเพลิดเพลินกับการถ่ายภาพกับเหล่าตุ๊กตาในบรรยากาศจำลองจากทั่วโลกมารวมกับตุ๊กตาน่ารักๆ</p>
+            </div>
+        </section>
+        <!-- Img15 -->
+        <section class="background">
+            <div class="content-wrapper">
+                <p class="content-title">Secret Space</p>
+                <p class="content-subtitle" style="font-size: 18px; letter-spacing: 1.25px">มี 3 สิ่งที่รวมไว้ด้วยกัน คือ ซุปเปอร์มาเก็ตต้นไม้ คาเฟ่ และแหล่งเรียนรู้</p>
+            </div>
+        </section>
+        <!-- Img16 -->
+        <section class="background">
+            <div class="content-wrapper">
+                <p class="content-title">บ้านหอมเทียน</p>
+                <p class="content-subtitle" style="font-size: 18px; letter-spacing: 1.25px">แหล่งท่องเที่ยวสร้างแรงบันดาลใจให้นักท่องหลายคนที่มาเยี่ยมเยือน ด้วยผลงานสร้างสรรค์ศิลปะเทียนกลิ่นหอม</p>
+            </div>
+        </section>
+        <!-- Img17 -->
+        <section class="background">
+            <div class="content-wrapper">
+                <p class="content-title">อุทยานหินเขางู</p>
+                <p class="content-subtitle" style="font-size: 18px; letter-spacing: 1.25px">เขางูเป็นสวนสาธารณะและสถานที่ท่องเที่ยว ทางโบราณคดี มีพระพุทธรูปหินขนาดใหญ่ เต็มพื้นที่หน้าผา</p>
+            </div>
+        </section>
     </div>
-    
-    <div class='1 fontThai' style="color:white; text-align: center; border:6px solid black; font-size: 4vw; margin:0% 20% 0% 20%; color: black"><p>อำเภอน่าเที่ยว?</p></div>
-    <br>
-    
-    <section>
-	<img src="Ratchaburi/alpaca.jpg" alt="">
-	<article>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-	</article>
-    </section>
-    <br>
-    <hr>
-    <br>
-    <section>
-	<img src="Ratchaburi/alpaca1.jpg" alt="">
-	<article>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-	</article>
-    </section>
-
-    <script type="text/javascript" src='js.js'></script>
+    <!-- Script -->
+    <script src="js/myjs.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js'></script>
+    <script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
+    <script src="js/preview.js"></script>
 </body>
 
 </html>
