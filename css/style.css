@@ -2,7 +2,9 @@
 html, body {
   overflow: hidden;
 }
-
+#font{
+  font-family: 'Kanit', sans-serif;
+}
 .background {
   background-size: cover;
   background-repeat: no-repeat;
