@@ -55,54 +55,50 @@ html, body {
 }
 
 .background:nth-child(6) {
-    background-image: url('../Ratchaburi/สวนผึ้ง.jpg');
-}
-
-.background:nth-child(7) {
     background-image: url(../Ratchaburi/ตลาดเก่าโพธาราม_180411_0003.jpg);
 
 }
-.background:nth-child(8) {
+.background:nth-child(7) {
   background-image: url(../Ratchaburi/ธารน้ำร้อนบ่อคลึง2.jpg);
 
 }
-.background:nth-child(9) {
+.background:nth-child(8) {
   background-image: url(../Ratchaburi/ถ้ำค้างคาว.jpg);
 
 }
-.background:nth-child(10) {
+.background:nth-child(9) {
   background-image: url(../Ratchaburi/Thebloom.jpg);
 
 }
-.background:nth-child(11) {
+.background:nth-child(10) {
   background-image: url(../Ratchaburi/alpaca.jpg);
 
 }
-.background:nth-child(12) {
+.background:nth-child(11) {
   background-image: url(../Ratchaburi/พิพิธภสระโกสินารายณ์.jpg);
 
 }
-.background:nth-child(13) {
+.background:nth-child(12) {
   background-image: url(../Ratchaburi/Thescenery_180418_0003.jpg);
 
 }
-.background:nth-child(14) {
+.background:nth-child(13) {
   background-image: url(../Ratchaburi/หุ่นขี้ผึ้ง_180418_0005.jpg);
 
 }
-.background:nth-child(15) {
+.background:nth-child(14) {
   background-image: url(../Ratchaburi/สุนทรีแลนด์แดนตุ๊กตา_180418_0005.jpg);
 
 }
-.background:nth-child(16) {
+.background:nth-child(15) {
   background-image: url(../Ratchaburi/secretspace_180418_0002.jpg);
 
 }
-.background:nth-child(17) {
+.background:nth-child(16) {
   background-image: url(../Ratchaburi/บ้านหอมเทียน_180418_0003.jpg);
 
 }
-.background:nth-child(18) {
+.background:nth-child(17) {
   background-image: url(../Ratchaburi/อุทยานเขาหินงู_180418_0005.jpg);
 
 }
@@ -128,42 +124,39 @@ html, body {
 }
 
 .background:nth-child(6) {
-  z-index: 5;
-}
-.background:nth-child(7) {
   z-index: 4;
 }
-.background:nth-child(8) {
+.background:nth-child(7) {
   z-index: 3;
 }
-.background:nth-child(9) {
+.background:nth-child(8) {
   z-index: 2;
 }
-.background:nth-child(10) {
+.background:nth-child(9) {
   z-index: 1;
 }
-.background:nth-child(11) {
+.background:nth-child(10) {
   z-index: 0;
 }
-.background:nth-child(12) {
+.background:nth-child(11) {
   z-index: -1;
 }
-.background:nth-child(13) {
+.background:nth-child(12) {
   z-index: -3;
 }
-.background:nth-child(14) {
+.background:nth-child(13) {
   z-index: -4;
 }
-.background:nth-child(15) {
+.background:nth-child(14) {
   z-index: -5;
 }
-.background:nth-child(16) {
+.background:nth-child(15) {
   z-index: -6;
 }
-.background:nth-child(17) {
+.background:nth-child(16) {
   z-index: -7;
 }
-.background:nth-child(18) {
+.background:nth-child(17) {
   z-index: -8;
 }
 .content-wrapper {
